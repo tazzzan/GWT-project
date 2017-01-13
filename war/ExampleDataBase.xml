@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
+ <object class="syi.n.client.model.User" id="User0">
+  <void property="baccsSet">
+   <void method="add">
+    <object class="syi.n.client.model.Bacc" id="Bacc0">
+     <void property="balance">
+      <double>23.0</double>
+     </void>
+     <void property="changesSet">
+      <void method="add">
+       <object class="syi.n.client.model.Change">
+        <void property="bacc">
+         <object idref="Bacc0"/>
+        </void>
+        <void property="change">
+         <double>23.0</double>
+        </void>
+        <void property="descriptionChange">
+         <string>blubb</string>
+        </void>
+        <void property="income">
+         <double>23.0</double>
+        </void>
+        <void property="nameChange">
+         <string>Income</string>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="id">
+      <int>14101</int>
+     </void>
+     <void property="nameBacc">
+      <string>Bar</string>
+     </void>
+     <void property="user">
+      <object idref="User0"/>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="balance">
+   <double>23.0</double>
+  </void>
+  <void property="id">
+   <int>14051</int>
+  </void>
+  <void property="nick">
+   <string>ilja</string>
+  </void>
+ </object>
+ <object class="syi.n.client.model.Admin">
+  <void property="id">
+   <int>13053</int>
+  </void>
+  <void property="nick">
+   <string>admin</string>
+  </void>
+ </object>
+ <object class="syi.n.client.model.Admin">
+  <void property="id">
+   <int>13101</int>
+  </void>
+  <void property="nick">
+   <string>root</string>
+  </void>
+ </object>
+</java>

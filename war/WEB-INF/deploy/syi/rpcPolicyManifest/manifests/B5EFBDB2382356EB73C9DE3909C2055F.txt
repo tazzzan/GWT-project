@@ -1,0 +1,2 @@
+serviceClass: syi.n.client.services.UserService
+path: 1121209E5080F3B655B953BC9C75DEE4.gwt.rpc
